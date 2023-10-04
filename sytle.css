@@ -1,0 +1,60 @@
+/* ========= STYLES ========= */
+body {
+    font: 400 var(--text-font-size) var(--text-font);
+    color: var(--text-color);
+    background: var(---background-color);
+   
+}
+
+.title {
+    font: 700 var(--title-font-size) var(--title-font);
+    color: var(--title-color);
+}
+
+header {
+    background-color: var(--base-color-one);
+    padding: var(--standart-padding);
+    text-align: center;
+}
+
+main {
+    padding: var(--standart-padding);
+    
+}
+
+nav {
+    background-color: var(--base-color-two);
+    padding: var(--standart-padding);
+}
+
+aside {
+    background-color: var(--base-color-three);
+    padding: var(--standart-padding);
+    color: var(--text-color-light);
+}
+
+footer {
+    background-color: var(--base-color-one);
+    padding: var(--standart-padding);
+    color: var(--text-color-light);
+    text-align: center;
+}
+h2{
+    padding: 20px 0;
+}
+
+article{
+    background-color:#435334;
+    border: 2px solid black;
+    
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+ul, li{
+    list-style-type: disc; 
+    font-size: 1.5rem;
+    padding: 1%;
+}
